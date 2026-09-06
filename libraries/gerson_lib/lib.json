@@ -1,0 +1,17 @@
+{
+    "id": "gersonlib",
+    "authors": [
+        "arlee",
+        "AcousticJamm"
+    ],
+    "version": "v1.0.0",
+    "engineVer": "v0.8.1-dev",
+	"config": {
+		// True: Green Buster
+		// False: Old Buster
+		"green_buster_name": false,
+		
+		// Whether or not Gerson will be called "Gerson". Otherwise: "Old Man"
+		"gerson_name": false
+	}
+}

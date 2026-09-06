@@ -1,0 +1,13 @@
+{
+    "id": "treelib",
+
+    "version": "v1",
+    "engineVer": "v0.10.0-dev",
+
+    "authors": [
+        "SuperOfSrb2"
+    ],
+
+    "config": {
+    }
+}

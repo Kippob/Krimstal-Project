@@ -1,0 +1,41 @@
+{
+    "maps": [
+        {
+            "fileName": "maps/example_map.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 2760,
+            "y": -720
+        },
+        {
+            "fileName": "maps/plaza.tmx",
+            "height": 760,
+            "width": 2200,
+            "x": 2480,
+            "y": -240
+        },
+        {
+            "fileName": "maps/climb_entry.tmx",
+            "height": 2000,
+            "width": 2600,
+            "x": 4680,
+            "y": -240
+        },
+        {
+            "fileName": "maps/claimb.tmx",
+            "height": 1400,
+            "width": 2000,
+            "x": 5280,
+            "y": 1760
+        },
+        {
+            "fileName": "maps/seth_may.tmx",
+            "height": 960,
+            "width": 640,
+            "x": 6200,
+            "y": 3160
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}

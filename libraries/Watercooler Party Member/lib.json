@@ -1,0 +1,11 @@
+{
+    "id": "watercoolerparty",
+    "authors": [
+        "Funkin's Garbage"
+    ],
+    "version": "v1.0.0",
+    "engineVer": "v0.10.0-dev",
+    "config": {
+        "canon": false, // If this setting is on, Watercooler will not have special animations and will look like in Deltarune.
+    }
+}

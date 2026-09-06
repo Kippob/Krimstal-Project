@@ -1,0 +1,13 @@
+{
+    "id": "frisk-lib",
+    "authors": [
+        "SadDiamondMan", // Main dev
+        "FireRainV" // Helper
+    ],
+    "version": "v1.3.0",
+    "engineVer": "v0.10.0-dev",
+    
+    "config": {
+		"use_player_name": false,
+	}
+}

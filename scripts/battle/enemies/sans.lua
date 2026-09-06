@@ -1,0 +1,85 @@
+local sans, super = Class(EnemyBattler)
+
+function sans:init()
+    super.init(self)
+
+    -- Enemy name
+    self.name = "Sans"
+    -- Sets the actor, which handles the enemy's sprites (see scripts/data/actors/dummy.lua)
+    self:setActor("sans")
+
+    -- Enemy health
+    self.max_health = 1
+    self.health = 1
+    -- Enemy attack (determines bullet damage)
+    self.attack = 4
+    -- Enemy defense (usually 0)
+    self.defense = 0
+    -- Enemy reward
+    self.money = 0
+
+    -- Mercy given when sparing this enemy before its spareable (20% for basic enemies)
+    self.spare_points = 20
+
+    -- List of possible wave ids, randomly picked each turn
+    self.waves = {
+        "basic",
+        "aiming",
+        "movingarena"
+    }
+
+    -- Dialogue randomly displayed in the enemy's speech bubble
+    self.dialogue = {
+        "..."
+    }
+
+    -- Check text (automatically has "ENEMY NAME - " at the start)
+    self.check = "AT 1 DF 0\n* Get ready for the fight of your goddamn life bozo."
+
+    -- Text randomly displayed at the bottom of the screen each turn
+    self.text = {
+        "* IS THAT FUCKING SANS?!?!",
+    }
+    -- Text displayed at the bottom of the screen when the enemy has low health
+    self.low_health_text = "* The dummy looks like it's\nabout to fall over."
+
+    -- Register act called "Smile"
+    self:registerAct("plead")
+    -- Register party act with Ralsei called "Tell Story"
+    -- (second argument is description, usually empty)
+    self:registerAct()
+end
+
+function sans:onAct(battler, name)
+    if name == "plead" then
+        -- Give the enemy 100% mercy
+        self:addMercy(0)
+        -- Change this enemy's dialogue for 1 turn
+        self.dialogue_override = "..."
+        -- Act text (since it's a list, multiple textboxes)
+        return {
+            Game.battle:startActCutscene("sans", "sans_battle")
+        }
+
+    elseif name == "Standard" then --X-Action
+        -- Give the enemy 50% mercy
+        self:addMercy(50)
+        if battler.chara.id == "ralsei" then
+            -- R-Action text
+            return "* Ralsei told Sans a joke!"
+        elseif battler.chara.id == "susie" then
+            -- S-Action: start a cutscene (see scripts/battle/cutscenes/dummy.lua)
+            self:addMercy(50)
+            return
+        else
+            -- Text for any other character (like Noelle)
+            return "* "..battler.chara:getName().." straightened the\ndummy's hat."
+        end
+    end
+
+    -- If the act is none of the above, run the base onAct function
+    -- (this handles the Check act)
+    return super.onAct(self, battler, name)
+end
+
+return sans

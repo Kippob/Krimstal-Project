@@ -1,0 +1,9 @@
+{
+    "id": "asriel_library",
+    "name": "Asriel Dreemurr Library",
+    "subtitle": "Add Asriel as a playable character with 2 unique spells!",
+
+    "version": "1.0.0",
+    "engineVer": "v0.10.0-dev"
+
+}
