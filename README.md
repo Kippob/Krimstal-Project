@@ -1,4 +1,4 @@
-# goof_lmao
+# Krimstal
 Yoooo what's up gang?!
 I finally got github working!!!!!!
 
