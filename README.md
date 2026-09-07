@@ -1,7 +1,7 @@
 # Krimstal
 (Originally called "Goof-Lmao")
 
-Made with Kristal Engine
+Made with Kristal Engine: https://kristal.cc/ (This literally wouldn't exist without it!)
 
 Song Links:
 https://youtu.be/2wbxpbP4yyg?si=8liiYET00TCyGkx7 - W... wait a second!!
