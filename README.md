@@ -14,6 +14,7 @@ This website is so cool!!!
 
 Also if you DON'T know me personally then uh...
 I don't care.
+How did you even get here lol
 There's no "unlisted" option soooo...
 Yeah have fun figuring out the inside jokes.
 
