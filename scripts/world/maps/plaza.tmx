@@ -61,7 +61,6 @@
   <object id="16" x="400" y="600" width="800" height="40"/>
   <object id="20" x="0" y="480" width="400" height="40"/>
   <object id="21" x="360" y="520" width="40" height="80"/>
-  <object id="22" x="-40" y="280" width="40" height="200"/>
   <object id="23" x="0" y="240" width="400" height="40"/>
   <object id="26" x="1200" y="560" width="400" height="40"/>
   <object id="28" x="1600" y="480" width="40" height="80"/>
@@ -75,7 +74,7 @@
   <object id="40" x="1840" y="240" width="360" height="40"/>
   <object id="41" x="2000" y="440" width="200" height="40"/>
   <object id="42" x="1640" y="480" width="360" height="40"/>
-  <object id="51" x="120" y="280" width="40" height="200"/>
+  <object id="51" x="120" y="120" width="40" height="200"/>
  </objectgroup>
  <objectgroup color="#ff00ff" id="2" name="objects">
   <object id="1" name="transition" x="760" y="80" width="80" height="40">
@@ -98,16 +97,17 @@
    </properties>
    <point/>
   </object>
-  <object id="43" name="transition" x="0" y="280" width="40" height="200">
+  <object id="43" name="transition" x="-40" y="280" width="40" height="200">
    <properties>
-    <property name="map" value="arena"/>
+    <property name="map" value="dooroom"/>
     <property name="marker" value="entry"/>
    </properties>
   </object>
-  <object id="47" name="npc" x="480" y="320">
+  <object id="47" name="npc" x="400" y="360">
    <properties>
     <property name="actor" value="kip"/>
-    <property name="text1" value="* Hi Krisy![wait:5] Im not canun to this project yet,[wait:5] but I wil be![wait:5] Evenchaly![wait:5] I hope."/>
+    <property name="text1" value="* Kris![wait:5] Kris![wait:5] The tayp![wait:5] It's gon!"/>
+    <property name="text2" value="* I loekd over ther and it looks frikineg boring but go chek it owt!"/>
     <property name="turn" type="bool" value="true"/>
    </properties>
    <point/>
@@ -159,7 +159,7 @@
   <object id="9" name="spawn" x="1339.33" y="356">
    <point/>
   </object>
-  <object id="44" name="entry_arena" x="73.5" y="375.5">
+  <object id="44" name="entry_arena" x="40" y="360">
    <point/>
   </object>
   <object id="50" name="entry_climb" x="2120" y="360">

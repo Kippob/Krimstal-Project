@@ -214,20 +214,6 @@ return {
           properties = {}
         },
         {
-          id = 22,
-          name = "",
-          type = "",
-          shape = "rectangle",
-          x = -40,
-          y = 280,
-          width = 40,
-          height = 200,
-          rotation = 0,
-          opacity = 1,
-          visible = true,
-          properties = {}
-        },
-        {
           id = 23,
           name = "",
           type = "",
@@ -415,7 +401,7 @@ return {
           type = "",
           shape = "rectangle",
           x = 120,
-          y = 280,
+          y = 120,
           width = 40,
           height = 200,
           rotation = 0,
@@ -495,7 +481,7 @@ return {
           name = "transition",
           type = "",
           shape = "rectangle",
-          x = 0,
+          x = -40,
           y = 280,
           width = 40,
           height = 200,
@@ -503,7 +489,7 @@ return {
           opacity = 1,
           visible = true,
           properties = {
-            ["map"] = "arena",
+            ["map"] = "dooroom",
             ["marker"] = "entry"
           }
         },
@@ -512,8 +498,8 @@ return {
           name = "npc",
           type = "",
           shape = "point",
-          x = 480,
-          y = 320,
+          x = 400,
+          y = 360,
           width = 0,
           height = 0,
           rotation = 0,
@@ -521,7 +507,8 @@ return {
           visible = true,
           properties = {
             ["actor"] = "kip",
-            ["text1"] = "* Hi Krisy![wait:5] Im not canun to this project yet,[wait:5] but I wil be![wait:5] Evenchaly![wait:5] I hope.",
+            ["text1"] = "* Kris![wait:5] Kris![wait:5] The tayp![wait:5] It's gon!",
+            ["text2"] = "* I loekd over ther and it looks frikineg boring but go chek it owt!",
             ["turn"] = true
           }
         },
@@ -643,8 +630,8 @@ return {
           name = "entry_arena",
           type = "",
           shape = "point",
-          x = 73.5,
-          y = 375.5,
+          x = 40,
+          y = 360,
           width = 0,
           height = 0,
           rotation = 0,

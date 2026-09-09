@@ -11,8 +11,8 @@
             "fileName": "maps/plaza.tmx",
             "height": 760,
             "width": 2200,
-            "x": 2480,
-            "y": -240
+            "x": 2497,
+            "y": -267
         },
         {
             "fileName": "maps/climb_entry.tmx",
@@ -34,6 +34,13 @@
             "width": 640,
             "x": 6200,
             "y": 3160
+        },
+        {
+            "fileName": "maps/dooroom.tmx",
+            "height": 640,
+            "width": 1600,
+            "x": 814,
+            "y": -310
         }
     ],
     "onlyShowAdjacentMaps": false,

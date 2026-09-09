@@ -19,8 +19,8 @@ return {
     cutscene:text("[voice:maytxt]* Cool![wait:5] I personally like video essays.")
 
     cutscene:text("[image:sethf, -9, 0, 2, 2][color:pink]I love binge watching those!")
-    cutscene:text("[voice:maytxt]* Have you seen the one about what happens to Flowery in the [color:red] Weird Route[color:reset]?")
-    cutscene:text("[image:sethf, -9, 0, 2, 2][color:pink]Yeah![wait:5] I love breaking the fourth wall!") --wip
+    cutscene:text("[voice:maytxt]* Have you seen the one about device theory?")
+    cutscene:text("[image:sethf, -9, 0, 2, 2][color:pink]Yeah.[wait:5] I personally don't buy it but...[wait:5] what do you two think?")
     
     Game.world.music:pause()
     cutscene:look("seth", "down")
@@ -32,18 +32,18 @@ return {
     cutscene:look("may", "left")
     cutscene:look("seth", "right")
     
-    cutscene:text("[image:sethf, -9, 0, 2, 2][color:pink]Do you uh... Have any siblings? (also not canon to JR)")
-    cutscene:text("[voice:maytxt]* Yeah. A younger one and an even younger one.") --wip
+    cutscene:text("[image:sethf, -9, 0, 2, 2][color:pink]Do you uh... Have any siblings?")
+    cutscene:text("[voice:maytxt]* Yeah. A younger one and an even younger one. (Also not canon to JR.)") --wip
     cutscene:text("[image:sethf, -9, 0, 2, 2][color:pink]You're the oldest?")
     cutscene:text("[voice:maytxt]* Yep.[wait:5] Do you have any siblings?")
-    cutscene:text("[image:sethf, -9, 0, 2, 2][color:pink]Kind of?[wait:5] I have the other flowers but we're not exactly related...")
+    cutscene:text("[image:sethf, -9, 0, 2, 2][color:pink]Heh,[wait:5] my inferiors?")
     cutscene:text("[image:sethf, -9, 0, 2, 2][color:pink]I mean...[wait:5] I guess Aqua is like a little sister to me.")
-    cutscene:text("[voice:maytxt]* Is she the one who's running around the place?")
+    cutscene:text("[voice:maytxt]* Is she the one who's running around and making the World Revolve?")
     cutscene:text("[image:sethf, -9, 0, 2, 2][color:pink]Sounds like her!")
-    cutscene:text("[voice:maytxt]* She seems fun to be around!")
+    cutscene:text("[voice:maytxt]* She seems fun to be around![wait:5] We all need a little Chaos in our lives!")
 
     cutscene:walkTo("kim", 1, 320, 0.5, "right")
-    cutscene:text("[image:sethf, -9, 0, 2, 2][color:pink]She's a...[wait:5] handful...")
+    cutscene:text("[image:sethf, -9, 0, 2, 2][color:pink]Well...[wait:5] She's a...[wait:5] handful...")
     cutscene:look("kim", "left")
     cutscene:text("[image:sethf, -9, 0, 2, 2][color:pink]She's young though...[wait:5] or at least acts young.")
     cutscene:walkTo("kim", -40, 320, 1, "left")
@@ -151,7 +151,8 @@ return {
     cutscene:wait(2)
     cutscene:look("may", "down")
     cutscene:text("[voice:maytxt]* Erm,[wait:5] what the [wait:5] [glow:170, 115, 1, 0, 0, 10][color:red][sound:ominous] b o o k?")
-    cutscene:wait(cutscene:walkTo("may", 680.0, 280.0, 1, "left"))
+
+    cutscene:spin("may", 2)
     
     Game:setFlag("post_mayseth", true)
     cutscene:playSound("screenshake")

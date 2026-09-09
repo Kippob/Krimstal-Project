@@ -1,9 +1,9 @@
 {
-    "activeFile": "scripts/world/maps/plaza.tmx",
+    "activeFile": "scripts/world/maps/dooroom.tmx",
     "expandedProjectPaths": [
-        "scripts/world",
         "scripts/world/tilesets",
-        "scripts/world/maps"
+        "scripts/world/maps",
+        "scripts/world"
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -191,15 +191,15 @@
         },
         "scripts/world/maps/arena.tmx": {
             "expandedObjectLayers": [
-                3,
                 5,
-                4
+                4,
+                3
             ],
             "scale": 0.5,
             "selectedLayer": 1,
             "viewCenter": {
                 "x": 980,
-                "y": 699
+                "y": 700
             }
         },
         "scripts/world/maps/card_castle.tsx": {
@@ -212,23 +212,23 @@
         "scripts/world/maps/claimb.tmx": {
             "expandedObjectLayers": [
                 6,
-                2,
                 16,
                 5,
+                2,
                 12
             ],
             "scale": 0.5,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 1412,
-                "y": 830
+                "x": 1000,
+                "y": 700
             }
         },
         "scripts/world/maps/climb_entry.tmx": {
             "expandedObjectLayers": [
-                3,
                 2,
-                4
+                4,
+                3
             ],
             "scale": 0.5,
             "selectedLayer": 2,
@@ -237,30 +237,42 @@
                 "y": 2434
             }
         },
-        "scripts/world/maps/example_map.tmx": {
+        "scripts/world/maps/dooroom.tmx": {
             "expandedObjectLayers": [
-                3,
                 2,
-                4
+                3
             ],
             "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1686.6666666666665,
+                "y": 256
+            }
+        },
+        "scripts/world/maps/example_map.tmx": {
+            "expandedObjectLayers": [
+                2,
+                4,
+                3
+            ],
+            "scale": 0.33,
             "selectedLayer": 4,
             "viewCenter": {
-                "x": 376,
-                "y": 260.6666666666667
+                "x": -39.39393939393926,
+                "y": 560.6060606060606
             }
         },
         "scripts/world/maps/plaza.tmx": {
             "expandedObjectLayers": [
-                2,
                 5,
+                2,
                 4
             ],
-            "scale": 1.5,
-            "selectedLayer": 2,
+            "scale": 0.75,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 1315.3333333333333,
-                "y": 248
+                "x": -84,
+                "y": 180
             }
         },
         "scripts/world/maps/room1.tmx": {
@@ -290,9 +302,9 @@
         "scripts/world/maps/seth_may.tmx": {
             "expandedObjectLayers": [
                 6,
-                3,
                 5,
-                4
+                4,
+                3
             ],
             "scale": 0.5,
             "selectedLayer": 3,
@@ -314,41 +326,42 @@
             "scaleInEditor": 1
         }
     },
-    "last.exportedFilePath": "C:/Users/kirby/AppData/Roaming/LOVE/kristal/mods/goof_lmao/scripts/world/maps",
+    "last.exportedFilePath": "C:/Users/kirby/AppData/Roaming/LOVE/kristal/mods/krimstal/scripts/world/maps",
     "last.imagePath": "C:/Users/kirby/AppData/Roaming/LOVE/kristal/mods/goof_lmao/assets/sprites/tilesets",
     "last.worldFilePath": "C:/Users/kirby/AppData/Roaming/LOVE/kristal/mods/goof_lmao/scripts/world",
     "loadedWorlds": [
-        "C:/Users/kirby/AppData/Roaming/LOVE/kristal/mods/goof_lmao/scripts/world/template.world"
+        "C:/Users/kirby/AppData/Roaming/LOVE/kristal/mods/krimstal/scripts/world/template.world"
     ],
-    "map.height": 24,
+    "map.height": 12,
     "map.lastUsedExportFilter": "Lua files (*.lua)",
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 40,
     "map.tileWidth": 40,
-    "map.width": 16,
+    "map.width": 40,
     "openFiles": [
         "scripts/world/maps/example_map.tmx",
         "scripts/world/maps/plaza.tmx",
         "scripts/world/maps/arena.tmx",
         "scripts/world/maps/climb_entry.tmx",
         "scripts/world/maps/claimb.tmx",
-        "scripts/world/maps/seth_may.tmx"
+        "scripts/world/maps/seth_may.tmx",
+        "scripts/world/maps/dooroom.tmx"
     ],
     "project": "goof_lmao.tiled-project",
     "property.type": "string",
     "recentFiles": [
         "scripts/world/maps/example_map.tmx",
-        "scripts/world/maps/seth_may.tmx",
-        "scripts/world/maps/claimb.tmx",
-        "scripts/world/maps/climb_entry.tmx",
-        "scripts/world/maps/arena.tmx",
         "scripts/world/maps/plaza.tmx",
+        "scripts/world/maps/arena.tmx",
+        "scripts/world/maps/climb_entry.tmx",
+        "scripts/world/maps/claimb.tmx",
+        "scripts/world/maps/seth_may.tmx",
+        "scripts/world/maps/dooroom.tmx",
         "C:/Users/kirby/Desktop/Apps/Kristal/mods/example/scripts/world/maps/room1.tmx",
         "scripts/world/maps/room1.tmx",
         "scripts/world/maps/room2.tmx",
         "C:/Users/kirby/AppData/Local/Temp/90c991ef-1aed-43fc-8613-aad1b822ca8b_kristal-chapter4-lib-testmod.zip.a8b/kristal-chapter4-lib-testmod/scripts/world/maps/room1.tmx",
-        "C:/Users/kirby/AppData/Local/Temp/263e405d-dcfd-4827-86ed-6983791aa96c_kristal-chapter4-lib-testmod.zip.96c/kristal-chapter4-lib-testmod/scripts/world/maps/room2.tmx",
-        "C:/Users/kirby/AppData/Local/Temp/187327c6-3d8e-4caf-ac49-c52f371d4cb8_kristal-chapter4-lib-testmod.zip.cb8/kristal-chapter4-lib-testmod/scripts/world/maps/tower2.tmx"
+        "C:/Users/kirby/AppData/Local/Temp/263e405d-dcfd-4827-86ed-6983791aa96c_kristal-chapter4-lib-testmod.zip.96c/kristal-chapter4-lib-testmod/scripts/world/maps/room2.tmx"
     ],
     "resizeMap.removeObjects": true,
     "tileset.lastUsedExportFilter": "Lua files (*.lua)",
