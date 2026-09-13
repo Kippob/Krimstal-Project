@@ -152,7 +152,10 @@ return {
     cutscene:look("may", "down")
     cutscene:text("[voice:maytxt]* Erm,[wait:5] what the [wait:5] [glow:170, 115, 1, 0, 0, 10][color:red][sound:ominous] b o o k?")
 
+    local my_npc = cutscene:getCharacter("may")
     cutscene:spin("may", 2)
+
+    my_npc:fadeTo(0, time)
     
     Game:setFlag("post_mayseth", true)
     cutscene:playSound("screenshake")

@@ -379,20 +379,6 @@ return {
           }
         },
         {
-          id = 26,
-          name = "savepoint",
-          type = "",
-          shape = "point",
-          x = 440,
-          y = 800,
-          width = 0,
-          height = 0,
-          rotation = 0,
-          opacity = 1,
-          visible = true,
-          properties = {}
-        },
-        {
           id = 28,
           name = "script",
           type = "",
@@ -593,8 +579,8 @@ return {
           name = "spawn",
           type = "",
           shape = "point",
-          x = 440,
-          y = 760,
+          x = 320,
+          y = 320,
           width = 0,
           height = 0,
           rotation = 0,

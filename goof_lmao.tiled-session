@@ -1,9 +1,9 @@
 {
     "activeFile": "scripts/world/maps/dooroom.tmx",
     "expandedProjectPaths": [
+        "scripts/world",
         "scripts/world/tilesets",
-        "scripts/world/maps",
-        "scripts/world"
+        "scripts/world/maps"
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -191,15 +191,15 @@
         },
         "scripts/world/maps/arena.tmx": {
             "expandedObjectLayers": [
-                5,
                 4,
+                5,
                 3
             ],
             "scale": 0.5,
             "selectedLayer": 1,
             "viewCenter": {
                 "x": 980,
-                "y": 700
+                "y": 699
             }
         },
         "scripts/world/maps/card_castle.tsx": {
@@ -212,29 +212,29 @@
         "scripts/world/maps/claimb.tmx": {
             "expandedObjectLayers": [
                 6,
-                16,
-                5,
                 2,
+                5,
+                16,
                 12
             ],
-            "scale": 0.5,
-            "selectedLayer": 2,
+            "scale": 1.5,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 1000,
-                "y": 700
+                "x": 1774,
+                "y": 576.6666666666666
             }
         },
         "scripts/world/maps/climb_entry.tmx": {
             "expandedObjectLayers": [
-                2,
                 4,
+                2,
                 3
             ],
             "scale": 0.5,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 1542,
-                "y": 2434
+                "x": 1300,
+                "y": 1001
             }
         },
         "scripts/world/maps/dooroom.tmx": {
@@ -245,34 +245,34 @@
             "scale": 0.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 1686.6666666666665,
-                "y": 256
+                "x": 1072,
+                "y": 202.66666666666669
             }
         },
         "scripts/world/maps/example_map.tmx": {
             "expandedObjectLayers": [
-                2,
                 4,
+                2,
                 3
             ],
             "scale": 0.33,
             "selectedLayer": 4,
             "viewCenter": {
-                "x": -39.39393939393926,
-                "y": 560.6060606060606
+                "x": 436.3636363636364,
+                "y": 259.090909090909
             }
         },
         "scripts/world/maps/plaza.tmx": {
             "expandedObjectLayers": [
-                5,
+                4,
                 2,
-                4
+                5
             ],
             "scale": 0.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": -84,
-                "y": 180
+                "x": 1100,
+                "y": 379.33333333333337
             }
         },
         "scripts/world/maps/room1.tmx": {
@@ -302,15 +302,15 @@
         "scripts/world/maps/seth_may.tmx": {
             "expandedObjectLayers": [
                 6,
-                5,
                 4,
+                5,
                 3
             ],
-            "scale": 0.5,
+            "scale": 1,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 492,
-                "y": -570
+                "x": 379,
+                "y": 616
             }
         },
         "scripts/world/tilesets/card_castle.tsx": {
@@ -322,7 +322,7 @@
             "scaleInEditor": 1
         },
         "scripts/world/tilesets/castle_card.tsx": {
-            "scaleInDock": 3,
+            "scaleInDock": 1.5,
             "scaleInEditor": 1
         }
     },

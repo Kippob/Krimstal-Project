@@ -112,9 +112,6 @@
    </properties>
    <point/>
   </object>
-  <object id="26" name="savepoint" x="440" y="800">
-   <point/>
-  </object>
   <object id="28" name="script" x="280" y="720" width="80" height="160">
    <properties>
     <property name="cutscene" value="mayseth.talk"/>
@@ -177,7 +174,7 @@
   <object id="10" x="100.333" y="811">
    <point/>
   </object>
-  <object id="27" name="spawn" x="440" y="760">
+  <object id="27" name="spawn" x="320" y="320">
    <point/>
   </object>
   <object id="31" x="519" y="409" width="40" height="40"/>
