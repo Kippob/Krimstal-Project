@@ -10,7 +10,7 @@ return {
   tilewidth = 40,
   tileheight = 40,
   nextlayerid = 4,
-  nextobjectid = 3,
+  nextobjectid = 4,
   properties = {},
   tilesets = {
     {
@@ -86,6 +86,22 @@ return {
           properties = {
             ["map"] = "plaza",
             ["marker"] = "entry_arena"
+          }
+        },
+        {
+          id = 3,
+          name = "script",
+          type = "",
+          shape = "rectangle",
+          x = 1440,
+          y = 280,
+          width = 80,
+          height = 280,
+          rotation = 0,
+          opacity = 1,
+          visible = true,
+          properties = {
+            ["field"] = ""
           }
         }
       }

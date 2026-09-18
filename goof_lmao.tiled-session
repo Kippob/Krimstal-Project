@@ -191,9 +191,9 @@
         },
         "scripts/world/maps/arena.tmx": {
             "expandedObjectLayers": [
+                3,
                 4,
-                5,
-                3
+                5
             ],
             "scale": 0.5,
             "selectedLayer": 1,
@@ -212,23 +212,23 @@
         "scripts/world/maps/claimb.tmx": {
             "expandedObjectLayers": [
                 6,
+                16,
                 2,
                 5,
-                16,
                 12
             ],
             "scale": 1.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 1774,
-                "y": 576.6666666666666
+                "x": 1000,
+                "y": 700.3333333333333
             }
         },
         "scripts/world/maps/climb_entry.tmx": {
             "expandedObjectLayers": [
+                3,
                 4,
-                2,
-                3
+                2
             ],
             "scale": 0.5,
             "selectedLayer": 2,
@@ -251,9 +251,9 @@
         },
         "scripts/world/maps/example_map.tmx": {
             "expandedObjectLayers": [
+                3,
                 4,
-                2,
-                3
+                2
             ],
             "scale": 0.33,
             "selectedLayer": 4,
@@ -301,16 +301,16 @@
         },
         "scripts/world/maps/seth_may.tmx": {
             "expandedObjectLayers": [
+                3,
                 6,
                 4,
-                5,
-                3
+                5
             ],
             "scale": 1,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 379,
-                "y": 616
+                "x": 320,
+                "y": 480.5
             }
         },
         "scripts/world/tilesets/card_castle.tsx": {
