@@ -1,6 +1,7 @@
 return {
     window = function(cutscene, event)
-    
+
+    cutscene:text("[glow:0, 0, 1, 0, 0, 10][color:red]TIMMY'S")
     cutscene:text("[voice:ralsei][face:ralsei/disappointed, -15, -10] * The last tower is barely\n out of reach...")
     cutscene:text("[voice:ralsei][face:ralsei/disappointed_down, -15, -10] * We've come so far...[wait:5]\n yet...")
     cutscene:text("[voice:susie][face:susie/neutral_side] * ...")

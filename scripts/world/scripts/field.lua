@@ -1,1 +1,0 @@
-Game.world:spawnObject(musiclogo("field", 180, 120, 160, 120, 140, 120), 9999)

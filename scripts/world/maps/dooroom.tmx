@@ -31,11 +31,6 @@
     <property name="marker" value="entry_arena"/>
    </properties>
   </object>
-  <object id="3" name="script" x="1440" y="280" width="80" height="280">
-   <properties>
-    <property name="field" value=""/>
-   </properties>
-  </object>
  </objectgroup>
  <objectgroup color="#5500ff" id="3" name="markers">
   <object id="2" name="entry" x="1560" y="400">

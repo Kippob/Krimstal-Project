@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.11" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="65" height="50" tilewidth="40" tileheight="40" infinite="0" nextlayerid="7" nextobjectid="79">
+<map version="1.11" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="65" height="50" tilewidth="40" tileheight="40" infinite="0" nextlayerid="7" nextobjectid="81">
  <editorsettings>
   <export target="climb_entry.lua" format="lua"/>
  </editorsettings>
@@ -237,6 +237,12 @@
     <property name="text5" value="* I'm only a placeholder![wait:5] Our creator is working on how to get &quot;Swooning&quot; to work!"/>
     <property name="text6" value="[voice:susie][face:susie/shy_fixed]* Ralsei..."/>
     <property name="text7" value="[voice:susie][face:susie/sad_frown]* We are SO fucked."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="79" name="npc" x="240" y="280">
+   <properties>
+    <property name="actor" value="kris"/>
    </properties>
    <point/>
   </object>

@@ -10,7 +10,7 @@ return {
   tilewidth = 40,
   tileheight = 40,
   nextlayerid = 7,
-  nextobjectid = 79,
+  nextobjectid = 81,
   properties = {},
   tilesets = {
     {
@@ -771,6 +771,22 @@ return {
             ["text5"] = "* I'm only a placeholder![wait:5] Our creator is working on how to get \"Swooning\" to work!",
             ["text6"] = "[voice:susie][face:susie/shy_fixed]* Ralsei...",
             ["text7"] = "[voice:susie][face:susie/sad_frown]* We are SO fucked."
+          }
+        },
+        {
+          id = 79,
+          name = "npc",
+          type = "",
+          shape = "point",
+          x = 240,
+          y = 280,
+          width = 0,
+          height = 0,
+          rotation = 0,
+          opacity = 1,
+          visible = true,
+          properties = {
+            ["actor"] = "kris"
           }
         }
       }

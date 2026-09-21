@@ -1,9 +1,9 @@
 {
-    "activeFile": "scripts/world/maps/dooroom.tmx",
+    "activeFile": "scripts/world/maps/climb_entry.tmx",
     "expandedProjectPaths": [
+        "scripts/world/maps",
         "scripts/world",
-        "scripts/world/tilesets",
-        "scripts/world/maps"
+        "scripts/world/tilesets"
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -191,9 +191,9 @@
         },
         "scripts/world/maps/arena.tmx": {
             "expandedObjectLayers": [
-                3,
                 4,
-                5
+                5,
+                3
             ],
             "scale": 0.5,
             "selectedLayer": 1,
@@ -211,11 +211,11 @@
         },
         "scripts/world/maps/claimb.tmx": {
             "expandedObjectLayers": [
+                12,
                 6,
                 16,
-                2,
                 5,
-                12
+                2
             ],
             "scale": 1.5,
             "selectedLayer": 0,
@@ -226,15 +226,15 @@
         },
         "scripts/world/maps/climb_entry.tmx": {
             "expandedObjectLayers": [
-                3,
                 4,
-                2
+                2,
+                3
             ],
-            "scale": 0.5,
+            "scale": 1,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 1300,
-                "y": 1001
+                "x": 337,
+                "y": 239
             }
         },
         "scripts/world/maps/dooroom.tmx": {
@@ -242,37 +242,37 @@
                 2,
                 3
             ],
-            "scale": 0.75,
-            "selectedLayer": 0,
+            "scale": 1,
+            "selectedLayer": 1,
             "viewCenter": {
-                "x": 1072,
-                "y": 202.66666666666669
+                "x": 800,
+                "y": 319.5
             }
         },
         "scripts/world/maps/example_map.tmx": {
             "expandedObjectLayers": [
-                3,
                 4,
-                2
+                2,
+                3
             ],
-            "scale": 0.33,
+            "scale": 1,
             "selectedLayer": 4,
             "viewCenter": {
-                "x": 436.3636363636364,
-                "y": 259.090909090909
+                "x": 365,
+                "y": 260.5
             }
         },
         "scripts/world/maps/plaza.tmx": {
             "expandedObjectLayers": [
                 4,
-                2,
-                5
+                5,
+                2
             ],
-            "scale": 0.75,
-            "selectedLayer": 0,
+            "scale": 1,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": 1100,
-                "y": 379.33333333333337
+                "x": 1945,
+                "y": 261
             }
         },
         "scripts/world/maps/room1.tmx": {
@@ -301,10 +301,10 @@
         },
         "scripts/world/maps/seth_may.tmx": {
             "expandedObjectLayers": [
-                3,
                 6,
                 4,
-                5
+                5,
+                3
             ],
             "scale": 1,
             "selectedLayer": 3,
@@ -353,10 +353,10 @@
         "scripts/world/maps/example_map.tmx",
         "scripts/world/maps/plaza.tmx",
         "scripts/world/maps/arena.tmx",
-        "scripts/world/maps/climb_entry.tmx",
-        "scripts/world/maps/claimb.tmx",
-        "scripts/world/maps/seth_may.tmx",
         "scripts/world/maps/dooroom.tmx",
+        "scripts/world/maps/seth_may.tmx",
+        "scripts/world/maps/claimb.tmx",
+        "scripts/world/maps/climb_entry.tmx",
         "C:/Users/kirby/Desktop/Apps/Kristal/mods/example/scripts/world/maps/room1.tmx",
         "scripts/world/maps/room1.tmx",
         "scripts/world/maps/room2.tmx",

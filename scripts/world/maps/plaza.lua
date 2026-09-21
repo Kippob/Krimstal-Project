@@ -10,7 +10,7 @@ return {
   tilewidth = 40,
   tileheight = 40,
   nextlayerid = 7,
-  nextobjectid = 54,
+  nextobjectid = 57,
   properties = {
     ["music"] = "castletown"
   },
@@ -646,6 +646,20 @@ return {
           shape = "point",
           x = 2120,
           y = 360,
+          width = 0,
+          height = 0,
+          rotation = 0,
+          opacity = 1,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 56,
+          name = "room_center",
+          type = "",
+          shape = "point",
+          x = 800,
+          y = 440,
           width = 0,
           height = 0,
           rotation = 0,
