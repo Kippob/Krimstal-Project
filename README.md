@@ -8,6 +8,12 @@ https://youtu.be/2wbxpbP4yyg?si=8liiYET00TCyGkx7 - W... wait a second!!
 
 FUCK I CAN'T FIND THE SANS WHO MIGHT YOU BE ONE DAMMIT
 
+Custom Sprite Credits:
+
+u/ladislaoXD25 on Reddit for the Battle Names:
+https://www.reddit.com/r/Deltarune/comments/qf4ihy/i_made_the_deltarune_font_for_battle_names_but/
+
+
 Yoooo what's up gang?!
 I finally got github working!!!!!!
 This website is so cool!!!
