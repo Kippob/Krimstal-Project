@@ -8,10 +8,10 @@ function actor:init()
 
     -- Width and height for this actor, used to determine its center
     self.width = 13
-    self.height = 25
+    self.height = 39
 
     -- Hitbox for this actor in the overworld (optional, uses width and height by default)
-    self.hitbox = { 3, 23, 21, 14 }
+    self.hitbox = { 0, 27, 13, 10}
     -- Color for this actor used in outline areas (optional, defaults to red)
     self.color = { 1, 1, 0 }
 
@@ -43,9 +43,9 @@ function actor:init()
 
          ["battle/attack"]       = {"battle/attack", 1/15, false},
          ["battle/act"]          = {"battle/act", 1/15, false},
-         ["battle/spell"]        = {"battle/spell", 1/15, false, next="battle/idle"},
+         ["battle/spell"]        = {"battle/act", 1/15, false, next="battle/idle"},
          ["battle/item"]         = {"battle/item", 1/12, false, next="battle/idle"},
-         ["battle/spare"]        = {"battle/spell", 1/15, false, next="battle/idle"},
+         ["battle/spare"]        = {"battle/act", 1/15, false, next="battle/idle"},
 
          ["battle/attack_ready"] = {"battle/attackready", 0.2, true},
          ["battle/act_ready"]    = {"battle/actready", 0.2, true},
