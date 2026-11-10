@@ -9,8 +9,8 @@ return {
   height = 12,
   tilewidth = 40,
   tileheight = 40,
-  nextlayerid = 6,
-  nextobjectid = 61,
+  nextlayerid = 7,
+  nextobjectid = 62,
   properties = {
     ["music"] = "Who Might You Be"
   },
@@ -330,7 +330,7 @@ return {
           name = "npc",
           type = "",
           shape = "point",
-          x = -40,
+          x = -80,
           y = 120,
           width = 0,
           height = 0,
@@ -339,6 +339,7 @@ return {
           visible = true,
           properties = {
             ["actor"] = "sans",
+            ["text"] = "[voice:sans][face:look_left]* i like this girl.[wait:5] she's \\npretty flortastic.",
             ["turn"] = true
           }
         },
@@ -426,6 +427,39 @@ return {
           properties = {
             ["text1"] = "* Just perfectly out of reach",
             ["text2"] = "[voice:susie][face:susie/teeth_smile]* Hey Kris,[wait:5]think Ralsei  \nknows \"Pickaxe Fome\"?"
+          }
+        }
+      }
+    },
+    {
+      type = "objectgroup",
+      draworder = "topdown",
+      id = 6,
+      name = "controllers",
+      class = "",
+      visible = true,
+      opacity = 1,
+      offsetx = 0,
+      offsety = 0,
+      parallaxx = 1,
+      parallaxy = 1,
+      properties = {},
+      objects = {
+        {
+          id = 61,
+          name = "toggle",
+          type = "",
+          shape = "point",
+          x = 94,
+          y = 114,
+          width = 0,
+          height = 0,
+          rotation = 0,
+          opacity = 1,
+          visible = true,
+          properties = {
+            ["flag"] = "!spin_finish",
+            ["target"] = { id = 53 }
           }
         }
       }

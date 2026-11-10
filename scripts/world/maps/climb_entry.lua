@@ -786,7 +786,8 @@ return {
           opacity = 1,
           visible = true,
           properties = {
-            ["actor"] = "kris"
+            ["actor"] = "sammy",
+            ["turn"] = true
           }
         }
       }

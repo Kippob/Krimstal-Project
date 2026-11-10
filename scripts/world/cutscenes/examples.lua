@@ -54,6 +54,7 @@ cutscene:wait(cutscene:walkTo("ralsei", 360.0, 200, 1, "up"))
  cutscene:setAnimation("aqua", "spin")
  cutscene:alignFollowers()
  cutscene:attachFollowers()
+ Game:setFlag("spin_finish", true)
  
     end
 }

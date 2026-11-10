@@ -242,7 +242,8 @@
   </object>
   <object id="79" name="npc" x="240" y="280">
    <properties>
-    <property name="actor" value="kris"/>
+    <property name="actor" value="sammy"/>
+    <property name="turn" type="bool" value="true"/>
    </properties>
    <point/>
   </object>

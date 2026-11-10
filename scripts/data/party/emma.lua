@@ -3,7 +3,7 @@ local character, super = Class(PartyMember, "emma")
 function character:init()
     super.init(self)
     -- Display name
-    self.name = "emma"
+    self.name = "Emma"
 
     -- Actor (handles overworld/battle sprites)
     self:setActor("emma")
@@ -36,7 +36,7 @@ function character:init()
 
     -- Base stats (saved to the save file)
     self.stats = {
-        health = 130,
+        health = 200,
         attack = 5,
         defense = 1,
         magic = 10
@@ -44,7 +44,7 @@ function character:init()
 
     -- Max stats from level-ups
     self.max_stats = {
-        health = 200
+        health = 5
     }
 
     -- Weapon icon in equip menu
@@ -62,20 +62,20 @@ function character:init()
     -- Character color (for action box outline and hp bar)
     self.color = {255, 0, 128}
     -- Damage color (for the number when attacking enemies) (defaults to the main color)
-    self.dmg_color = {0.5, 0.75, 1}
+    self.dmg_color = {255.5, 0, 128}
     -- Attack bar color (for the target bar used in attack mode) (defaults to the main color)
     self.attack_bar_color = {255, 0, 128}
     -- Attack box color (for the attack area in attack mode) (defaults to darkened main color)
-    self.attack_box_color = {0, 0.25, 1}
+    self.attack_box_color = {255, 0, 128}
     -- X-Action color (for the color of X-Action menu items) (defaults to the main color)
-    self.xact_color = {231, 204, 233}
+    self.xact_color = {255, 0, 128}
 
     -- Head icon in the equip / power menu
-    self.menu_icon = "party/kip/head"
+    self.menu_icon = "party/emma/head"
     -- Path to head icons used in battle
-    self.head_icons = "party/kip/icon"
+    self.head_icons = "party/emma/icon"
     -- Name sprite
-    self.name_sprite = "party/kris/name"
+    self.name_sprite = "party/emma/name"
 
     -- Effect shown above enemy after attacking it
     self.attack_sprite = "effects/attack/cut"
